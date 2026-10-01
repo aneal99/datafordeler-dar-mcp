@@ -1,6 +1,7 @@
 {
   "name": "datafordeler-dar-mcp",
-  "version": "0.1.0",
+  "version": "0.1.1",
+  "mcpName": "io.github.aneal99/datafordeler-dar-mcp",
   "description": "MCP server for Danish addresses from Danmarks Adresseregister (DAR) on Datafordeleren. The replacement for DAWA, which closed on 1 October 2026.",
   "type": "module",
   "bin": {

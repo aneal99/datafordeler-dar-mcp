@@ -1,0 +1,29 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.aneal99/datafordeler-dar-mcp",
+  "description": "Danish addresses from Datafordeleren's DAR register, the replacement for DAWA.",
+  "repository": {
+    "url": "https://github.com/aneal99/datafordeler-dar-mcp",
+    "source": "github"
+  },
+  "version": "0.1.1",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "datafordeler-dar-mcp",
+      "version": "0.1.1",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "description": "Datafordeler API key. Optional for lookups by id until 15 January 2027; required for text search and the GraphQL tools.",
+          "isRequired": false,
+          "format": "string",
+          "isSecret": true,
+          "name": "DATAFORDELER_API_KEY"
+        }
+      ]
+    }
+  ]
+}

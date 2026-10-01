@@ -1,5 +1,5 @@
 ﻿export const SERVER_NAME = "datafordeler-dar-mcp";
-export const SERVER_VERSION = "0.1.0";
+export const SERVER_VERSION = "0.1.1";
 
 /** Legacy REST service. Anonymous access works until the sunset date below. */
 export const REST_BASE = "https://services.datafordeler.dk/DAR/DAR/3.0.0/rest";
